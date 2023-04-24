@@ -1,25 +1,20 @@
 
-# Draft
+# Skribbler
 
-https://github.com/tlrobinson/element-capture/blob/master/background.js
+Chrome extension that allows saving of drawing by injecting a `Save` button next to the Configuration icon.
 
 
-Drawing Canvas: <div id="game-canvas">
+# Install
 
-```js
-mn.querySelector(".reason").textContent = function(e) {
-  switch (e) {
-  case F:
-      return R("Everyone guessed the word!");
-  case B:
-      return R("The drawer left the game!");
-  case K:
-      return R("Time is up!");
-  default:
-      return "Error!"
-  }
-}
-```
+### Using source code
+
+Follow guidance here: https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked
+
+### Using crx file
+
+See *Releases* for latest up-to-date version.
+
+
 # Licence
 
 Drawing by Nhor from <a href="https://thenounproject.com/browse/icons/term/drawing/" target="_blank" title="drawing Icons">Noun Project</a>
