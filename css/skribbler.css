@@ -1,0 +1,24 @@
+#game-save {
+    z-index: 20;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 52px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#game-save .icon {
+    position: relative;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+    background-image:url('chrome-extension://__MSG_@@extension_id__/images/save.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .3));
+    transition: transform .1s ease-in-out;
+}

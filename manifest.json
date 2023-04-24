@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "skribbler",
+  "version": "1.0.0",
+  "description": "Never loose a drawing ever again. Adds a 'Save' button in skribbl.io.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://skribbl.io/"
+  ],
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://skribbl.io/*",
+        "https://skribbl.io/"
+      ],
+      "css": [
+        "css/skribbler.css"
+      ],
+      "js": [
+        "js/skribbler.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/icon.png",
+        "images/save.gif",
+        "images/save.png"
+      ],
+      "matches": [
+        "https://skribbl.io/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
